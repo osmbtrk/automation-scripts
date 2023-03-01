@@ -1,0 +1,16 @@
+
+Use our Json File here : 
+https://www.dropbox.com/s/4iqs89h3rikpzzr/client_secret_133843950511-0tssu73ufgvg7ua085u5guucfk76vj3v.apps.googleusercontent.com.json?dl=0
+
+aso-gsheets@lucid-course-213904.iam.gserviceaccount.com
+
+
+or
+
+For google API json, read here : https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/
+Just make a Google cloud platform account as shown in the article then get the json file
+There will be an email in there, send it to meso I can give you access to the sheet
+
+App Tweak:
+tourfrombali@gmail.com
+IlhamAso28

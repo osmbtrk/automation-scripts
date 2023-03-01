@@ -1,0 +1,101 @@
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver import Chrome
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
+from connection import write_data
+from tempfile import mkdtemp
+from bs4 import BeautifulSoup
+from typing import List
+from words_gen import generate_keyword
+from translate import translate, countries_languages
+import time
+import selenium
+import contextlib
+import json
+import random
+import undetected_chromedriver.v2 as uc
+
+
+
+def load_countries() -> List[str]:
+with open("countries.txt", "r") as fp:
+return fp.readlines()
+
+
+
+def get_user_agent() -> str:
+with open("useragents.txt", "r") as fp:
+data = json.loads(fp.read())
+return random.choice(data)["useragent"]
+
+
+
+class App_Tweak:
+def init(self, username: str, password: str, SLEEP_SECS: int) -> None:
+self.username = username
+self.password = password
+chrome_options = uc.ChromeOptions()
+self.main_url = "https://app.apptweak.com/applications/android/com.travpart.english/keywords?brand_type=all&country=id&device=android&exact_match=false&keyword=&language=id&list_id=1111674&list_type=all&phrase_length=1%2C2%2C3%2C4&view=keyword_table&workspace=160782"
+self.SLEEP_SECS = 2
+chrome_options = Options()
+height = random.randint(800, 1080)
+width = random.randint(1800, 1920)
+user_agent = get_user_agent()
+chrome_options.add_argument('--start-maximized')
+chrome_options.add_argument(f'--user-agent={user_agent}')
+chrome_options.add_argument(f'window-size={width}x{height}')
+chrome_options.add_argument("--disable-popup-blocking")
+chrome_options.headless = True
+self.driver = uc.Chrome(options=chrome_options,
+user_data_dir=mkdtemp())
+
+
+
+def safe_click(self, element) -> None:
+retry = 0
+while True:
+with contextlib.suppress(selenium.common.exceptions.NoSuchElementException, selenium.common.exceptions.StaleElementReferenceException, selenium.common.exceptions.ElementNotInteractableException, selenium.common.exceptions.ElementClickInterceptedException):
+element.click()
+return
+time.sleep(1)
+retry += 1
+if retry > 10:
+break
+
+
+
+def login(self) -> None:
+self.driver.get(self.main_url)
+print("Logging in")
+try:
+cookie_btn = WebDriverWait(self.driver, 25).until(
+EC.element_to_be_clickable((By.ID, "CybotCookiebotDialogBodyButtonAccept")))
+time.sleep(self.SLEEP_SECS)
+self.safe_click(cookie_btn)
+except:
+pass
+
+
+
+email = WebDriverWait(self.driver, 25).until(
+EC.presence_of_element_located((By.CLASS_NAME, "string.email.required.form-control.input-block__control.form-control")))
+email.send_keys(self.username)
+time.sleep(self.SLEEP_SECS)
+
+
+
+password = WebDriverWait(self.driver, 25).until(
+EC.presence_of_element_located((By.CLASS_NAME, "password.optional.form-control.input-block__control")))
+password.send_keys(self.password)
+time.sleep(self.SLEEP_SECS)
+
+
+
+btn = WebDriverWait(self.driver, 25).until(
+EC.element_to_be_clickable((By.CLASS_NAME, "at-btn.at-btn--engage.at-btn--large.at-btn--stretch")))
+time.sleep(self.SLEEP_SECS)
+self.safe_click(btn)
+time.sleep(self.SLEEP_SECS)

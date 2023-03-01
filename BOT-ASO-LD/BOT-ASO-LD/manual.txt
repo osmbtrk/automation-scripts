@@ -1,0 +1,13 @@
+1-open cmd in working path
+2-run 'pip install -r requirements.txt'
+3-click on run.py
+4-click button
+(you have to do this only the first time then you can click on run.py directlly and open the dashboard)
+
+
+
+that will run the bot on the server
+
+bot functions
+place keywords according to title and and SD to paragraph in AE column by country and work 
+according job instruction steps and copy columns from keyword analysis sheet to content request

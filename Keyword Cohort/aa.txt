@@ -1,0 +1,51 @@
+
+<div class="at-dropdown__indicators css-0">
+<div aria-hidden="true" class="at-dropdown__indicator">
+<svg class="at-dropdown__chevron-icon" viewBox="0 0 10 6">
+<path stroke-linecap="round" stroke-linejoin="round" d="M1 1l4 4 4-4">
+</path></svg>
+</div></div></div>
+<div class="at-dropdown__menu css-0" id="react-select-4-listbox">
+<div class="at-dropdown__menu-list css-0">
+<div class="keyword-list-dropdown__option pointer" style="transition: transform 0ms linear 0s;">
+<div role="button" tabindex="0" aria-roledescription="sortable" aria-describedby="DndDescribedBy-1" class="at-dropdown__option-icon at-type-small text-grey at-dopdown__item-grabber">
+<span class="fa fa-grip-vertical"></span>
+</div>
+<div class="at-dropdown__option-icon">
+<span class="keyword-list__color" style="color: rgb(75, 90, 243);"></span></div>
+<div class="keyword-list-dropdown__option-list">
+<div class="at-dropdown__option at-dropdown__option--is-focused at-dropdown__option--is-selected" id="react-select-4-option-0" tabindex="-1">
+<div class="at-dropdown__option-label">
+<div class="keyword-list"><span class="keyword-list__name">Keywords List # 1</span>
+<span class="at-badge keyword-list-dropdown__keyword-count">
+<span class="at-badge__content">18</span></span></div></div></div></div>
+<span class="keyword-list-dropdown__option-action">
+<button type="button" class="at-btn at-btn--sub-action">
+<span class="fa fa-pencil at-btn__icon at-text-white"></span></button>
+<button type="button" class="at-btn at-btn--sub-action"><span class="fa fa-trash at-btn__icon at-text-white"></span></button></span></div>
+<div class="keyword-list-dropdown__option pointer" style="transition: transform 0ms linear 0s;">
+<div role="button" tabindex="0" aria-roledescription="sortable" aria-describedby="DndDescribedBy-1" class="at-dropdown__option-icon at-type-small text-grey at-dopdown__item-grabber">
+<span class="fa fa-grip-vertical"></span></div><div class="at-dropdown__option-icon"><span class="keyword-list__color" style="color: rgb(255, 50, 50);"></span></div>
+<div class="keyword-list-dropdown__option-list">
+<div class="at-dropdown__option" id="react-select-4-option-1" tabindex="-1">
+<div class="at-dropdown__option-label"><div class="keyword-list">
+<span class="keyword-list__name">Keyword Research</span>
+<span class="at-badge keyword-list-dropdown__keyword-count">
+<span class="at-badge__content">0</span></span></div></div></div></div>
+<span class="keyword-list-dropdown__option-action">
+<button type="button" class="at-btn at-btn--sub-action">
+<span class="fa fa-pencil at-btn__icon"></span></button><button type="button" class="at-btn at-btn--sub-action">
+<span class="fa fa-trash at-btn__icon text-danger"></span></button></span></div></div></div></div></div>
+<div class="at-control keyword-list-dropdown__control"><div class="at-dropdown css-0"><span id="react-select-4-live-region" class="css-7pg0cj-a11yText"></span>
+<span aria-live="polite" aria-atomic="false" aria-relevant="additions text" class="css-7pg0cj-a11yText"></span>
+<div class="at-dropdown__control css-0">
+<div class="at-dropdown__value-container at-dropdown__value-container--has-value css-0">
+<div class="at-dropdown__single-value"><div class="at-dropdown__option-icon">
+<span class="keyword-list__color" style="color: rgb(75, 90, 243);"></span></div>
+<div class="at-dropdown__option-label">
+<div class="keyword-list keyword-list-dropdown__value"><span class="keyword-list__name">Keywords List # 1</span>
+<span class="at-badge keyword-list-dropdown__keyword-count"><span class="at-badge__content">0</span></span></div></div></div>
+<input id="at-dropdown-id-7" tabindex="0" inputmode="none" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" aria-readonly="true" class="css-1hac4vs-dummyInput
+
+" value=""></div><div class="at-dropdown__indicators css-0"><div aria-hidden="true" class="at-dropdown__indicator"><svg class="at-dropdown__chevron-icon" viewBox="0 0 10 6"><path stroke-linecap="round" stroke-linejoin="round" d="M1 1l4 4 4-4"></path></svg></div></div></div></div></div>
+<div class="at-control keyword-list-dropdown__control"><div class="at-dropdown css-0"><span id="react-select-4-live-region" class="css-7pg0cj-a11yText"></span><span aria-live="polite" aria-atomic="false" aria-relevant="additions text" class="css-7pg0cj-a11yText"></span><div class="at-dropdown__control css-0"><div class="at-dropdown__value-container at-dropdown__value-container--has-value css-0"><div class="at-dropdown__single-value"><div class="at-dropdown__option-icon"><span class="keyword-list__color" style="color: rgb(75, 90, 243);"></span></div><div class="at-dropdown__option-label"><div class="keyword-list keyword-list-dropdown__value"><span class="keyword-list__name">Keywords List # 1</span><span class="at-badge keyword-list-dropdown__keyword-count"><span class="at-badge__content">0</span></span></div></div></div><input id="at-dropdown-id-7" tabindex="0" inputmode="none" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" aria-readonly="true" class="css-1hac4vs-dummyInput" value=""></div><div class="at-dropdown__indicators css-0"><div aria-hidden="true" class="at-dropdown__indicator"><svg class="at-dropdown__chevron-icon" viewBox="0 0 10 6"><path stroke-linecap="round" stroke-linejoin="round" d="M1 1l4 4 4-4"></path></svg></div></div></div></div></div>

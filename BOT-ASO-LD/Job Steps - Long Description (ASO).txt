@@ -1,0 +1,67 @@
+The goal is just for google to be able to crawl our app in google play through keyword
+----------------
+The other ASO bot will provide targeted keyword in this sheet (Content Request Sheet):
+https://docs.google.com/spreadsheets/d/1zZj4i3mTkWTzWB0E4JVe1nKjZDwgO1L4a1O45BkmcpQ/edit#gid=1109673203
+then you will take the keywords for the long description in the content sheet.
+-----------------
+
+Steps for BOT instruction:
+
+*Move the keywords from 'Keyword Analysis' Gsheet to 'Content Request' Gsheet*
+
+1. Go to the 'Keyword Analysis' Gsheet, and just simply pay attention to sheet "LD" (Long Description). 
+- Copy Paste all the targeted keywords to the 'content request' Gsheet - LD Sheet. https://prnt.sc/3aAvf-5k5i4D.
+- Check the data in colomn K&L in the 'Keyword Analysis' Gsheet and write it into colomn L in the 'Content Request Sheet'. https://prnt.sc/pL_ks48-iKNz; https://prnt.sc/AYXSatOoR9Jx
+(note, there are three type of meta data : Title, Short Desc., Long Desc.). In the first Gsheet LD are separated but in the second Gsheet it is are combined into one.
+
+2. Paste all the targeted keywords and data into the right colomn into the 'Content Request' Gsheet . https://prnt.sc/1tTEM37Bfa6e. 
+Also ensure the meta data are put in place in one colomn, L. https://prnt.sc/v1jrrKXi19zB
+
+Further explanation :
+In content request :
+--Colomn A:E - Copy paste from kw analysis to content request  (colomn D formula shall be same)
+--Colomn F:G & I & J & N:P- Drag down the formula
+--Colomn H - Copy paste 'value' from kw analysis to content request  
+Colomn L - Check and refer in the kw analysis colomn K:L, if it was sent either to Title or SD or LD
+-Colomn AC:AD - Copy paste the category (per country) in colomn C, then remove duplicate.
+--Colomn K & R:AA - Ignore
+
+
+*Put the keywords in the Long Description*
+
+For Colomn AE, you need to fill in the targeted keyword instructed in colomn N:P
+
+3. Go to 'Content Request Sheet' LD Sheet, colomn AE, then ensure all the targeted keywords is filled in at least 1.
+(but please check note below for the quality) for all the countries (>10-20 countries).
+
+4. In colomn L, check for the ones stated as 'Send for Title and SD'. Then, refers, check and copy 
+the keywords in colomn D, and paste it into colomn AE Long description https://prnt.sc/g1lwVQNxnxTL,
+at "First 100 words" & "Included in first sentence on the paragraphs" (Before first dot). Goal is for title and SD keywords
+to be placed accordingly so google will predict those keywords for our app.
+
+5. Then check and ensure in colomn O & P, if the relevant keyword 'Title and SD', are 
+more than >0 (at least 1). If it is still not more than 1, then check colomn E,
+then copy the keyword and paste it into colomn AO according to the previous step's instruction until colomn
+O & P are more than >0 (at least 1).
+
+6. Then check in colomn H, find the keywords which has target of 1 or more and the keywords noted as Title, SD, and LD.
+Then, check in colomn N ("Long Desc.Repetition") and ensure those keywords are placed more than 1 in colomn AO. 
+Because those keywords needs repetition. So put the keywords neatly and attractively somehow, anyway or anyhow as you can do.
+
+Note :
+a. Ensure for every country's LD (Long Description), the very begining of the sentence is [Travpart is ...]
+b. Ensure the LD has as many bulet points as possible, hence; the explanation are clear.
+c. Check here to learn more https://www.dropbox.com/s/ap12inv9m1ibict/Long%20Description%20Automation.mp4?dl=0
+d. If you can make the whole Long description (both local and english) to be gramartically correct that's better than not. 
+e. Check density in colomn J, For title and SD it should be >1,5% and for LD should be >1%.
+f. Check here to learn more :
+https://www.dropbox.com/s/ndg7k6ks180hl2o/bandicam%202022-09-21%2014-04-59-448.mp4?dl=0
+g. Check & refer here to see if you think can garner some idea https://www.dropbox.com/s/z5kig88kf6qks6c/6d8df94922e73eb1dc821d392c780a42.mp4?dl=0
+h. For google API json, read here : https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/
+Just make a Google cloud platform account as shown in the article then get the json file
+There will be an email in there, send it to meso I can give you access to the sheet
+i. We are separating the 'Keyword Analysis' Gsheet
+US -> PK :
+https://docs.google.com/spreadsheets/d/1fZ-NlfkUzy0XO-8CsEPZnVTD36x2b0LsIBpyB8offfM/edit#gid=1571144386
+MEX -> KOR :
+https://docs.google.com/spreadsheets/d/1w4PQIqDFpU8qEMNOBpOmzay4xj2SZJ1vyk1b7uVctNk/edit#gid=1895261002

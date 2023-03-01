@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "linkedinproject-363016",
+  "private_key_id": "d810ae698c754e5795301701d324e7b038eb67ca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzXGEtYvFPwMnI\nEoW5T1w6hIVmOYJAKJpqnugYCqpGhTdyCuFr9r7YXFz6U63leJPE21T1AkzQEb2I\n1EymlFTcEIfjWp5bytq4B834F/iMCzNmmB+62cktBYr6wEhbFFdYrsP2Js9IJoc3\n2bpBbrh/xYmxRWg3Tcz3ODSY2vD+3174k4Q8jyRYgUtHk9AfP45A6fxZisKcd3zh\niHyrcQCDoHoyiu9MF0I+9rPvaJTq8gijpCGPGtM0HZ+pUci2HEPFSTtiDZQjLvSk\nkIFVPvoDAyNrmMA6G4edxrSQJV9/REThUEyJyIQ+TOikdrTr145+vn2/zRrSbeeD\nJDZTxM9vAgMBAAECggEAP/4xQ8a97yULOUF2iZfJga1fhQn2sVprQahBibZgaznD\nfwJnzCPkkoBdwgiSDkHXgxB4PtRbwI7bz1JjqLlaj4usWA8wWfLF14wdTiuLR7gF\nVlDnXTyv3MrR+8YX6rsWsPLlwtC0+vqYGvKpVAgjdp7tkhx/4t90xi29Al53Ro+l\nM3INvYVrUS7VGDP2jnuN5C9fbEyBphyyYnH086ha4PraGKV9OOg5C4VSSkvE/lni\nC8BHwb7OL+wHfs0fo7f1bB+wgQIMDlzb8LIM/BnCKZoNSMUndTnRxM1RdURjd2pj\nxGJvZ84KpdBrGTPrd3++5DIOaX6NYf6y07r9C8UVYQKBgQDph1C78xJ0UlxmMWH3\nsWbt6PCPM97SRn9P6nWYPQFYzw7AITEIM9D3Z/2YRPatGGKi0p/TwpNL3EXo2biQ\nn2aRbRvFm8MIv+srRxDzwzqVbxflvDgzusHaCwEI6k7NE2r+pDqcJ7n4wRP2LfEQ\nXED1z5NDY0MohCEbXSeOHywSIQKBgQDEnrXPLDnPskzJo4bE3W4/fIL2xCIrs7YC\nX9y+K80TuUISOr2SkbQT2VQUfkuHRIGs0hHbnkQ1PSi7nRepjyma+tBw/7nI2lLa\niugbnNvdWcZ6RQ7tImxOhLJ0Cke0SswVxzZk4ANGKQX7xIuaMvwWwr6+tzPdyyjf\nU0FEc77PjwKBgFYfIgX+UXr2eL7zTUbUdLoeYsDdBzqS5xaox69aKCoBSlZOp094\nFIN5JUvHexVA3fdgJ7MnmbyrQljqGiezsVbGXyyUEewjIu416imLgQplCvIdZLin\nEiCAWGRaTK9Sju3T0Q2PlQUI53ytWq6G5yn/4DZE4BqMB82YoCLImi8hAoGAJNqK\nwXZMr71/3xujmyrWC1hPQ+mnbgGVUASf35VeLyA+XiRcfCiLVF0cAWtaxNP2ampF\npqCXsFLyW5gqY0HOTppMj6GfNSKW/RekQei43ViCd1CSZ6hYHK+Ks21p20VZ04sv\niuDiPDhcQsCoWhLMZYfDMQQt2JjH5HQ6e5YmYckCgYEA3wjHbUDtJNsTrMqVA4O+\nvPf2eYvn0hfLiPY/WxlBwM5+XeSJ0EkdZhq3jhD5kYnUQa5/RVUjCc8EgUwn0o30\nnXhz6YdP1JTWaRTJPl5qlMKoAiQgeNUaoMaGMNBRH5L+fazy39yHJvSuhtqwZ5j9\nmyLjEEpWrdbfP4bhjSXUqtI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "linkedinproject@linkedinproject-363016.iam.gserviceaccount.com",
+  "client_id": "111497901250715717767",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/linkedinproject%40linkedinproject-363016.iam.gserviceaccount.com"
+}

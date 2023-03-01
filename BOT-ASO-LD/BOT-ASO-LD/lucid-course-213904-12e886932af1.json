@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lucid-course-213904",
+  "private_key_id": "12e886932af1d09f179a5fd5a9474e2ccc4ba554",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC68/8gv/FAQYEI\nNvlnkxBdIx4Cae/udBOMVs5AlNni0IVcOGmef0jpWAeY9GcWubOe00ynAfMeEhz6\ncKHH/sT7y9GLMZbF7POBtRM10yyKqeSKKp0en4OAH1458Eo4Dlx1eJSEKTy3u1Bn\nW/1LDtZp3cCj42pdl/MS6aGTGgGwJ2sfmR0I+O9rOXIbZGFHPhOCWvdotXIUZudK\n2Jbm0vXq6ssk7YMfYkDH1IWCsY1flzdpt26ie5EAqI/FDPahmoqYEPKQ78PU8fSD\nlnjKLmgTVEQX4RpGVXSmpLditW0bdW/4DRPnVSR5gE3PoUy3r8kfsKw04mUfxu7+\nFr+DUbq9AgMBAAECggEALx/EzfUD8z3vr+nniP+NbuSkslgQtgsFSGkzGR1MJLuJ\n+hpwKRcNgmABnkDw4U4S5DR/zFMV/Jz1N/1/EiH6djvEiHEJ/78ADFBf1L/zqMo1\nRMyECU2NAJUnk7QpiSK5lJS93uhkGS36kOsjmDFXw5y1a7otvATKrRg99Y3nIgcG\nAZussQBfUK/v82w1mflIw+obFMCWAKIXPHX5vl9hvVk+L9FmYe4z/Yf3iQ5HU5DI\nEDOxkbYpvn2ZVa5ZUa9wXdRL44wov5vOnm4odC/LDM8UYJ2Nb/jv49+2gkd8nbpk\nybYghRbxYhAS/C3v2cMkt27zI04HrSGzwn+o/QolQwKBgQD/XVSQUIwtzAztT9IY\nnNYtGVkvyFrv+30VIlAWY3nCOYt599SGQP33XI7g5BF5IWHkfy1uwfs9AsoYF8Sq\n+gJ4xCchNYFQrC1MIYil2VGphLuQXDomX1O+XNC9NQtdNrXRFL6WyqxJQgALbn55\nMTZiLW30inLabdfRumyoIyDxMwKBgQC7axZnORwNOOAYDF50TUmBzTgglJa/ifQe\n3+dsudlQAn+goKQDuJAJHHyd9qCBztyiLMyvmtTnG8fEb6YNJ8ek5Xf/dnESbIEG\nqX900r+Dfzq39+eqre8MWl6LRn+Aa6X5H9ar3NAuEg+ygLw8mzOK78FbQw2/0NI0\n5tD9ExOETwKBgQCsCL0qiAkX5UqkKU0Z5bboJRaPeUPCPsOylC4uFw/1B/1tyscz\nNt+hYIqk+SDIYPPpEsCRyD8wiAuMFZ8ZrFoz77mIxtn6djQCAOllCbXZJSGTDH7k\nUP5C1ZaOkQi54Fy2oWoQfjN5GuyaxvKPRNclZwOXZhogCzYFBbmjwB62PwKBgAOi\nfQm9cszS2I2+16obwZwx1a/UEeRfEYvzvbI/HHbPxZfg5a1oy+pRUh1iJhS+ZUsD\n4WhacVyWDlbB7497wQRyqtQagPDhh9MQQHeMishLFGFy/lwyCVvM+N5snJZqAAsH\n0gr9OlBaa1GD66KlQ+ei5LYXY9Hfg+QgwdbWot9DAoGBALygSvL095bUQs96jdVw\nhy80ZOtlEp8dnItIC2Osbg+/Wqicgzvwha9FU11c7/NPEjuo5jZg5qJmemAe604b\n/X/5zedufANW+8J3CdPufThNZTUeiaIDsfWCGp40gYNu5UOgDKUutPJ1PGSHcwLw\nntwYn649LfmcCQK9rHJ8cR+V\n-----END PRIVATE KEY-----\n",
+  "client_email": "accessto-oussema@lucid-course-213904.iam.gserviceaccount.com",
+  "client_id": "111785981657134536313",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/accessto-oussema%40lucid-course-213904.iam.gserviceaccount.com"
+}

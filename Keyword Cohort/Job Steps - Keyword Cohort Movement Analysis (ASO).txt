@@ -1,0 +1,56 @@
+Dump Ranked KW in App Tweak to Keyword Analysis - Forecast GSheet :
+1.== Go to app tweak.com, you can use free version or mine.
+2.= Ensure our app (Travpart) is added for all of the target countries (at least 20 countries).
+3.== Click open in new tab (Ctrl+Shift+left click) on every 20 countries app. https://prnt.sc/TjgME1xSnhBW 
+4.= On the side bar, Keywords, Keyword Table, Ranked (add keyword list if ranked is not made yet). https://prnt.sc/UJPYYwzmrEm7
+5.== On the subheader, Click Ranked, All, then Analyze all keywords. https://prnt.sc/5uoZvSmCxXea
+6. Tick all keywords, export to google sheet, https://prnt.sc/R6zaAKrgsDIP.
+7. In the exported GS, create one additional colomn, Comp. Adv, with the numerical formula Volume divided by Difficulty. https://prnt.sc/3VWbEzXJj103
+8. Copy all the data in these colomns, https://prnt.sc/U5bx9XjiUpoL
+Keyword;	
+Volume;	
+Rank;
+Comp. Adv 
+9. Paste it into the Keyword Analysis - ASO sheets, according to the countries, 'Keep section'. (check note below). https://prnt.sc/wtBcHvzD5ca7
+Be careful of the data below it, do not overwrite it, if there are data below it, hence you need to add space. https://prnt.sc/hT3CB0vB26hz
+
+Dump Ranked KW to Keyword Cohort Movement GSheet :
+After you have done the first phase, now copy paste all of those similar data into the keyword cohort movement GS.
+https://docs.google.com/spreadsheets/d/1QY1iWSBVbVWWsGaUyTtEuHGaAgVbEbackl1EwprZLw4/edit#gid=0, 
+But in this sheet we don't need you dump the comp. advantage data.
+
+From the (Keyword Analysis - ASO Gsheet) Forecast worksheet copy columns Keywords, Rank and Volume - paste into the relevant country worksheet in 
+Keyword Cohort Movements workbook to the bottom of the table in columns B,C,D, add current date in column E for the records, which were just pasted
+
+Dump Irrelevant Data (Not Getting Ranking)
+1. 'In the keyword analysis Gsheet, dump all the keyword in sub-sheet 'Send to Creative Team' (https://prnt.sc/IrZnBEDZMcqL) to app tweak, keyword list https://prnt.sc/Cq16LO8pANZe.
+2. Then export to google sheet and make competitive advantage new colomn (volume/difficulty).
+3. Eliminates all the keywords which are getting rank from the Gsheet.
+4. Then put all the data (Keywords; Rank; Comp. Adv; Volume), which are not getting any ranking, into the 'forecast' sub-sheet https://prnt.sc/KD3mogthHd-V. 
+Please do not replace any old data.
+5. Remove the keyword list and all of the keywords in it, because we have limitted amount of keywords billing plan in app tweak https://prnt.sc/Cq16LO8pANZe.
+
+Note:
+A. You may need to find and copy-paste the number of apps (Difficulty) from the app tweak exported GS data. https://prnt.sc/3CAb6SiABBmt ; https://prnt.sc/bGtg69d70-bs.
+So ensure keyword, numerical volume, rank, number of apps are dumped there also.
+
+B. You need to add colomn for Rank and Movement, 
+-> Rank - Put the current date (the date you run this bot)
+-> Movement - Make it one week movement from the last 7 days
+(Actually already done by the excel guy)
+
+
+Note
+- We separate the 20 countries into 2 (Keyword Analysis - ASO) sheets here :
+US -> PK
+https://docs.google.com/spreadsheets/d/1fZ-NlfkUzy0XO-8CsEPZnVTD36x2b0LsIBpyB8offfM/edit#gid=108376326
+MEX -> KOR
+https://docs.google.com/spreadsheets/d/1w4PQIqDFpU8qEMNOBpOmzay4xj2SZJ1vyk1b7uVctNk/edit#gid=1895261002
+
+- You need to cordinate with the excel expert guy in our team, especially for keyword cohort movement step 3, because he made all the GS formula.
+
+- For google API json, read here : https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/
+Just make a Google cloud platform account as shown in the article then get the json file
+There will be an email in there, send it to meso I can give you access to the sheet
+
+- you can always ask chatgpt/project manager/other team members if you have any techincal question
