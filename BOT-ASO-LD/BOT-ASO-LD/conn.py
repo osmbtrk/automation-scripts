@@ -17,4 +17,4 @@ def run_script(host, username, key_path, script_path):
     client.close()
 
 # Usage example
-run_script('34.132.160.154', 'osmbt', 'iddd', 'run.py')
+run_script('', 'osmbt', 'iddd', 'run.py')
