@@ -29,9 +29,9 @@ import json
 
     
 
-bot_username = "tourfrombali@gmail.com"
+bot_username = ""
 
-bot_password = "IlhamAso28"
+bot_password = ""
 
 
 
