@@ -7,7 +7,7 @@ from email.message import EmailMessage
 
 
 EMAIL_ADDRESS = 'mallessamohamedamine@gmail.com'
-EMAIL_PASSWORD = 'yodfhxofypqhhptz'
+EMAIL_PASSWORD = ''
 contacts = ['osmbtrk@gmail.com', 'mallessamohamedamine@gmail.com'] 
 
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp: 
